@@ -25,7 +25,7 @@ jobs:
         dockerfile-path: ./Dockerfile
         input-type: docker-daemon
         ignore-failed-scan: true
-        sysdig-secure-url: http://us2.app.sysdig.com
+        sysdig-secure-url: https://us2.app.sysdig.com
 
     - uses: github/codeql-action/upload-sarif@v1
       if: always()
